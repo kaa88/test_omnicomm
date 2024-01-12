@@ -1,0 +1,12 @@
+.pagination {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  button {
+    cursor: pointer;
+    &.active {
+      background-color: red;
+      color: white;
+    }
+  }
+}
